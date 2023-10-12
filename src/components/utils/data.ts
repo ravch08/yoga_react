@@ -1,0 +1,138 @@
+import {
+	Blog1,
+	Blog2,
+	Blog3,
+	Class1,
+	Class2,
+	Class3,
+	Class4,
+	Class5,
+	Class6,
+	Event1,
+	Event2,
+	Event3,
+	Event4,
+	Event5,
+	Event6,
+	Play,
+} from "./helper";
+
+export const blogItems = [
+	{
+		id: 1,
+		url: "#!",
+		imgSrc: Blog1,
+		title: "You can always control what goes on inside",
+		description: "Through the practices of yoga, we discover that concern for the happiness…",
+	},
+	{
+		id: 2,
+		url: "#!",
+		imgSrc: Blog2,
+		title: "Why you should go to yoga",
+		description: "Through the practices of yoga, we discover that concern for the happiness…",
+	},
+	{
+		id: 3,
+		url: "#!",
+		imgSrc: Blog3,
+		title: "Yoga is a way to freedom",
+		description: "Through the practices of yoga, we discover that concern for the happiness…",
+	},
+];
+
+export const classesItems = [
+	{
+		id: 1,
+		url: "#!",
+		imgSrc: Class1,
+		title: "Bikram Yoga",
+		author: "Anurag Bashu",
+		date: "October 2, 2019",
+		timing: "13:00 - 15:00",
+	},
+	{
+		id: 2,
+		url: "#!",
+		imgSrc: Class2,
+		title: "Vinyasa Yoga",
+		author: "Anurag Bashu",
+		date: "October 2, 2019",
+		timing: "13:00 - 15:00",
+	},
+	{
+		id: 3,
+		url: "#!",
+		imgSrc: Class3,
+		title: "Power Yoga",
+		author: "Anurag Bashu",
+		date: "October 2, 2019",
+		timing: "13:00 - 15:00",
+	},
+	{
+		id: 4,
+		url: "#!",
+		imgSrc: Class4,
+		title: "Ashtanga Yoga",
+		author: "Anurag Bashu",
+		date: "October 2, 2019",
+		timing: "13:00 - 15:00",
+	},
+	{
+		id: 5,
+		url: "#!",
+		imgSrc: Class5,
+		title: "Iyengar Yoga",
+		author: "Anurag Bashu",
+		date: "October 2, 2019",
+		timing: "13:00 - 15:00",
+	},
+	{
+		id: 6,
+		url: "#!",
+		imgSrc: Class6,
+		title: "Hatha Yoga",
+		author: "Anurag Bashu",
+		date: "October 2, 2019",
+		timing: "13:00 - 15:00",
+	},
+];
+
+export const eventItems = [
+	{
+		id: 1,
+		url: "#!",
+		play: Play,
+		imgSrc: Event1,
+	},
+	{
+		id: 2,
+		url: "#!",
+		play: Play,
+		imgSrc: Event2,
+	},
+	{
+		id: 3,
+		url: "#!",
+		play: Play,
+		imgSrc: Event3,
+	},
+	{
+		id: 4,
+		url: "#!",
+		play: Play,
+		imgSrc: Event4,
+	},
+	{
+		id: 5,
+		url: "#!",
+		play: Play,
+		imgSrc: Event5,
+	},
+	{
+		id: 6,
+		url: "#!",
+		play: Play,
+		imgSrc: Event6,
+	},
+];
